@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Business Design</string>
+    <string name="web_site">Web Site: https://ourflowers.thebest.com</string>
+    <string name="hours_of_operation">Hours of operation: Sun-Thu 08:00 - 19:00 Friday 08:00 - 15:30 Saturday is closed</string>
+    <string name="email_address">Email address: OurFlowers@gmail.com</string>
+    <string name="contact_information">Contact information</string>
+    <string name="address_of_business">Address of business: 32 Hayarkon St. Tel Aviv Israel</string>
+    <string name="the_description">Our flower shop is a colorful flower shop located in Tel Aviv. In the store you will find rich bouquets, table arrangements, orchids, plants and more. \'Our Flowers\' is shipping in the center. Our shop is open all week except Saturday and holidays. You are invited to enjoy the experience of buying fresh and stunning flowers for any occasion! Invited to call and visit.</string>
+    <string name="business_name">Business name: Our flowers</string>
+    <string name="phone_number">Phone number: 03-5654332</string>
+    <string name="description_of_Business">Description of Business:</string>
 </resources>
