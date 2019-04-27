@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e4ff54"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#79b700"
+            android:text="Business name: Our flowers"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tulips" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#79b700"
+            android:padding="5dp"
+            android:text="Description of Business:"
+            android:textColor="#012345"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e4ff54"
+            android:padding="5dp"
+            android:text="Our flower shop is a colorful flower shop located in Tel Aviv.
+In the store you will find rich bouquets, table arrangements, orchids, plants and more.
+'Our Flowers' is shipping in the center. Our shop is open all week except Saturday and holidays.
+You are invited to enjoy the experience of buying fresh
+and stunning flowers for any occasion! Invited to call and visit."
+            android:textColor="#012345"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textColor="#012345"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="42dp"
+                android:src="@drawable/pointer_icon_27"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#aeea00"
+                android:text="Address of business:  32 Hayarkon St. Tel Aviv Israel"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textColor="#012345"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:src="@drawable/pointer_icon_28" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#aeea00"
+                android:text="Contact information"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#012345"
+            android:text="Phone number: 03-5654332"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#012345"
+            android:text="Email address: OurFlowers@gmail.com"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#012345"
+            android:text="Web Site: https://ourflowers.thebest.com"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#012345"
+            android:text="Hours of operation:
+            Sun-Thu 08:00 - 19:00
+            Friday     08:00 - 15:30
+            Saturday is closed"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>
